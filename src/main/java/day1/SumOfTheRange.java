@@ -16,7 +16,7 @@ public class SumOfTheRange {
 
     private static class Solution {
         public long solution(int a, int b) {
-            long answer = 0;
+            long answer;
             if (a == b) return a;
 
             if (Math.max(a, b) == a) {
