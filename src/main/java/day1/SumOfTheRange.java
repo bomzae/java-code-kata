@@ -1,5 +1,6 @@
 package day1;
 
+// Lv1 22. 두 정수 사이의 합
 public class SumOfTheRange {
     public static void main(String[] args) {
         Solution sol = new Solution();

@@ -1,5 +1,6 @@
 package day1;
 
+// Lv1 21. 하샤드 수
 public class HarshadNumber {
     public static void main(String[] args) {
         Solution sol = new Solution();
