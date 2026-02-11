@@ -2,6 +2,7 @@ package day2;
 
 import java.util.Arrays;
 
+// Lv1 25. 나누어 떨어지는 숫자
 public class DivisibleNumberArray {
     public static void main(String[] args) {
         Solution sol = new Solution();

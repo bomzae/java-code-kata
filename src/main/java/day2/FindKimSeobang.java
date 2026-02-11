@@ -1,5 +1,6 @@
 package day2;
 
+// Lv1 24. 서울에서 김서방 찾기
 public class FindKimSeobang {
     public static void main(String[] args) {
         Solution sol = new Solution();
