@@ -1,6 +1,6 @@
 package day3;
 
-// Lv1 26. 핸드폰 번호 가리기
+// Lv1 27. 핸드폰 번호 가리기
 public class MaskingPhoneNumber {
     public static void main(String[] args) {
         Solution sol = new Solution();

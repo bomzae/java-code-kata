@@ -1,6 +1,6 @@
 package day3;
 
-// Lv1 25. 음양 더하기
+// Lv1 26. 음양 더하기
 public class AddPlusAndMinus {
     public static void main(String[] args) {
         Solution sol = new Solution();

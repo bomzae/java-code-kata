@@ -1,6 +1,6 @@
 package day3;
 
-
+// Lv1 28. 없는 숫자 더하기
 public class AddMissingNumber {
     public static void main(String[] args) {
         Solution sol = new Solution();
