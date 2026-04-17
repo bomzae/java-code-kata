@@ -1,7 +1,7 @@
 package day34;
 
 // Lv3 64. 체육복
-public class gymClothes {
+public class GymClothes {
     public static void main(String[] args) {
         Solution sol = new Solution();
         System.out.println(sol.solution(5, new int[] {2, 4}, new int[] {1, 3, 5}));
