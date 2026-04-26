@@ -2,6 +2,7 @@ package day43;
 
 import java.util.*;
 
+// Lv4 73. 공원 산책
 public class WalkPark {
     public static void main(String[] args) {
         Solution sol = new Solution();
