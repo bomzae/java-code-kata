@@ -1,7 +1,7 @@
 package day51_60.day54;
 
 // Lv3 연습문제. 입국심사
-public class EntryScreening {
+public class Immigration {
     public static void main(String[] args) {
         Solution sol = new Solution();
 
