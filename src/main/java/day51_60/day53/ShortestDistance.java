@@ -3,6 +3,7 @@ package day51_60.day53;
 import java.util.LinkedList;
 import java.util.Queue;
 
+// Lv2 연습문제. 게임 맵 최단거리
 public class ShortestDistance {
     public static void main(String[] args) {
         Solution sol = new Solution();
