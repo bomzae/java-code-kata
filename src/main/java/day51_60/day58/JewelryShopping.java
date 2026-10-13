@@ -32,7 +32,7 @@ public class JewelryShopping {
             int left = 0;
             int right = 0;
             int len = gems.length;
-            int minLen = 100000;
+            int minLen = 100000; // 현재까지 발견한 가장 짧은 구간
 
             // Map에 현재 구간 보석 저장
             HashMap<String, Integer> map = new HashMap<>();
@@ -51,7 +51,7 @@ public class JewelryShopping {
                         minLen = right - left;
                     }
 
-                    // left 위치 보석 제거 후 left 중가
+                    // left 위치 보석 제거 후 left 증가
                     map.put(gems[left], map.get(gems[left]) - 1);
                     if (map.get(gems[left]) == 0) {
                         map.remove(gems[left]);
