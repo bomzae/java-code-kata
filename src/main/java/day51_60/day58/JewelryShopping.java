@@ -53,6 +53,7 @@ public class JewelryShopping {
 
                     // left 위치 보석 제거 후 left 증가
                     map.put(gems[left], map.get(gems[left]) - 1);
+                    // 만약 보석 개수가 0이 되면 map에서도 제거
                     if (map.get(gems[left]) == 0) {
                         map.remove(gems[left]);
                     }
